@@ -1,0 +1,378 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+    
+}
+
+
+.head-bar{
+    background-color: rgb(52, 52, 228);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 50px;
+     
+}
+.social{
+
+text-align: center;
+width: 250px;
+letter-spacing: 1em;
+
+}
+.main-nav{
+margin: 10px;
+background-color: white;
+
+
+}
+.logo{
+    position: absolute;
+    margin-left: 400px;
+
+
+}
+.menu-it{
+    padding-left: 700px;
+}
+
+.text{
+ 
+ width: 800px;
+ text-align: center;
+
+}
+.button{
+    width: 250px;
+    text-align: left;
+}
+
+.main-nav a{
+    color: black;
+    height: 50px;
+    background-color: white;
+    display: block;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.main-nav a:hover{
+    background-color: rgb(55, 55, 207);
+    border-radius: 40px;
+    color: white;
+    
+}
+
+.main-nav ul{
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.main-nav li:hover  .submenu > li {
+    display: block;
+    top: 0px;
+}
+.submenu li {
+    display: none;
+    position: absolute;
+    top: 0px;
+}
+.submenu{
+ display:flex ;
+ flex-direction: column;
+ position: absolute;
+ width: 100%;   
+}
+
+.submenu li {
+    position: relative;
+}
+
+.submenu li:hover .dropdown li{
+    display: block;
+}
+
+.dropdown li{
+    display: none;
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 200px;
+}
+
+@media only screen and (max-width: 2300px){
+.slider img{
+ width: 1900px;
+ height: 700px;
+}
+}
+
+@media only screen and (max-width: 1200px){
+    .slider img{
+     width: 950px;
+     height: 380px;
+    }
+    }
+
+
+    @media only screen and (max-width: 600px){
+        .slider img{
+         width: 450px;
+         height: 190px;
+        }
+        }
+
+
+marquee{
+    text-align: center;
+    width:1100px;
+    margin-left: 400px;
+}
+
+.intro{
+    margin: 0px auto;
+    margin-left: 800px;
+}
+.intro h1{
+    display: inline-block;
+    
+}
+#he1{
+    color: blue;
+}
+#he2{
+    color: green;
+}
+
+hr{
+    width: 50px;
+    display: inline-block;
+    color: green;
+    
+}
+.delim{
+    margin-left: 850px;
+}
+
+.content{
+    margin: 0px auto;
+    width: 1000px;
+    word-spacing: normal;
+    line-height: 2em;
+    margin-top: 10px;
+    color: gray;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.bar{
+    background-color: blue;
+    height: 400px;
+    width: auto;
+    text-align: center;
+}
+.bar-inner{
+    display: inline-block;
+    margin-top: 80px;
+    
+}
+.bone{
+    width: 200px;
+    height: 200px;
+ 
+ display: inline-block;
+ margin: 0 80px;
+ 
+ vertical-align: top;
+ color: white;
+ font-weight: bold;
+}
+.btwo{
+    
+    width: 200px;
+    height: 200px;
+
+display: inline-block;
+margin: 0 80px;
+vertical-align: top;
+ color: white;
+ font-weight: bold;
+}
+.bthree{
+    width: 200px;
+    height: 200px;
+
+display: inline-block;
+margin: 0 80px;
+vertical-align: top;
+ color: white;
+ font-weight: bold;
+}
+.bfour{
+    width: 200px;
+    height: 200px;
+
+display: inline-block;
+margin: 0 80px;
+vertical-align: top;
+ color: white;
+ font-weight: bold;
+}
+.bone img,.btwo img,.bthree img,.bfour img{
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+}
+.month{
+    font-size: 18px;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+
+
+
+
+.delim2{
+    margin-left: 900px;
+}
+
+.services{
+    text-align: center;
+    width: auto;
+    height: 700px;
+    background-color: rgb(241, 241, 241);
+    
+}
+
+.one,.two,.three,.four,.five,.six{
+    width: 350px;
+    height: 180px;
+    background-color: rgb(207, 207, 207);
+    display: inline-block;
+    margin: 30px;
+    box-shadow:  10px 10px 10px 5px grey;
+    padding-top: 20px;
+    text-align: center;
+
+}
+/* .serv{
+    position: relative;
+    margin-right: 400px;
+
+} */
+h4{
+    text-align: center;
+}
+
+.mission
+{   
+    display:inline-block;
+    padding: 200px;
+    margin-bottom: 30px;
+}
+.onea,.twoa,.threea,.foura,.fivea,.sixa{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(207, 207, 207);
+    display: inline-block;
+    margin: 30px;
+    box-shadow:  10px 10px 10px 5px grey;
+    padding-top: 20px;
+
+}
+.onea ,.twoa img,.threea img,.foura img,.fivea img,.sixa img{
+    
+    display: inline-block;
+    margin-right: 10px;
+    
+
+}
+
+.gallery
+{
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.gallery img{
+    height: 200px;
+    width: 250px;
+}
+.footer{
+    height: 500px;
+    color: white;
+    background-color: rgb(51, 49, 49);
+    text-align: center;
+    
+    
+}
+.foota{
+    display: inline-block;
+    
+    margin: 20px;
+    text-align: justify;
+    width: 400px;
+    height: 300px;
+    vertical-align: top;
+    
+    
+
+    
+}
+.footb{
+    display: inline-block;
+    
+    width: 400px;
+    height: 300px;
+    margin: 20px; 
+    vertical-align: top;
+    text-align: left;
+    
+    
+}
+.footc{
+    display: inline-block;
+    
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    text-align: left;
+    
+    
+}
+
+.foot p{
+    display: inline;
+}
+.foot-inner{
+    
+    margin-top: 80px;
+    display: inline-block;
+  
+}
+.copy{
+    background-color: blue;
+
+}
+.copy p{
+    padding-left: 300px;
+    color: white;
+}
